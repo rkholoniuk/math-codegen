@@ -5,4 +5,5 @@
  * Licensed under the MIT license.
  */
 'use strict'
-module.exports = require('./lib/CodeGenerator')
+exports.CodeGenerator = require('./lib/CodeGenerator');
+exports.AsyncCodeGenerator = require('./lib/AsyncCodeGenerator');
