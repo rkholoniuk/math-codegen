@@ -1,7 +1,9 @@
 'use strict'
 
 var assert = require('assert')
-var CodeGenerator = require('../')
+var CodeGenerators = require('../')
+var CodeGenerator = CodeGenerators.CodeGenerator
+
 var mocha = require('mocha')
 var it = mocha.it
 var describe = mocha.describe
